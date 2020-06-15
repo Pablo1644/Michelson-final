@@ -93,10 +93,6 @@ public class DrawablePanel extends JPanel {
 		sD.TopVerticalDraw(polygon2d, new Point2D.Double(centerX, mirrorY + getAddedMirrorY()),
 				new Point2D.Double(centerX, centerY + height/8), 25, 4, Color.BLACK, 180 - getAddedMirrorY(), false);
 		
-		//180-get.....- faza i teraz trza by by³o dodaæ ify
-		//Czyli jak np. 160-180-Wzmocnienie
-		//160-20 -Nic nie zasz³o
-		//20-0 wygaszenia
 
 		// Fala odbita od zwierciad³a górnego
 		sD.TopVerticalDraw(polygon2d, new Point2D.Double(centerX, mirrorY + getAddedMirrorY()),
